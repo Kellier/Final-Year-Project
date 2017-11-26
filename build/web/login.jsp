@@ -4,15 +4,16 @@
     Author     : corma
 --%>
 
+<!-- Reference starts -->
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Login Demo with JSP</title>
+        <title>Your-Blog Site</title>
     </head>
     <body>
-        <form method="post" action="validation.jsp">
+        <form method="post" action="validation.jsp"><!-- Send the username and password entered to validation.jsp -->
             <center>
             <table border="1" cellpadding="5" cellspacing="2">
                 <thead>
@@ -41,3 +42,4 @@
         </form>
     </body>
 </html>
+<!-- Reference Ends, Available from: http://www.lionblogger.com/simple-jsp-login-page-with-mysql/ -->
